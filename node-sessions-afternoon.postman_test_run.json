@@ -1,0 +1,699 @@
+{
+	"id": "d42d89bd-fcd5-4e22-beb1-5c5b6601d5c0",
+	"name": "node-sessions-afternoon",
+	"allTests": [],
+	"timestamp": "2019-09-17T22:24:42.959Z",
+	"collection_id": "a24e5dc4-ea71-444a-a716-0a3bd56e8217",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "a24e5dc4-ea71-444a-a716-0a3bd56e8217",
+		"name": "node-sessions-afternoon",
+		"description": "",
+		"auth": null,
+		"events": null,
+		"variables": null,
+		"order": [
+			"b5eb30f3-9710-4937-b28a-b92217b426f5",
+			"f4a6081d-7105-40f4-bf68-1d5cd7f7685c",
+			"84d9de47-872c-4891-93bf-1242ffdd9476",
+			"e78bc8a4-9f28-4a0c-bc36-4e39c736ac6f",
+			"c7b6d384-f252-457b-bc25-ff350468021a",
+			"32ae79ba-e0e7-4917-ba03-56483247a301",
+			"c325ed14-ccfd-410b-b88e-4f25475e3912",
+			"b9a4424b-6b4c-4533-afed-4e8bf066ec5a",
+			"252e8e91-977c-4ae9-b892-4aaf85455194",
+			"5ee02225-fb50-45fc-b633-97d32f9423e4",
+			"ced03358-9804-4b3c-8dd9-cb1555743984",
+			"f327a2bb-f9b2-4c81-9f04-3653b2a3641c"
+		],
+		"folders_order": [],
+		"owner": "8664587",
+		"favorite": false,
+		"protocolProfileBehavior": {}
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "Get Swag",
+			"id": "b5eb30f3-9710-4937-b28a-b92217b426f5",
+			"url": "http://localhost:3000/api/swag",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"API can return swag": true
+			},
+			"testPassFailCounts": {
+				"API can return swag": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"9"
+			],
+			"allTests": [
+				{
+					"API can return swag": true
+				}
+			],
+			"time": "9",
+			"totalRequestTime": "9",
+			"iterationResults": {}
+		},
+		{
+			"name": "Register User 0",
+			"id": "f4a6081d-7105-40f4-bf68-1d5cd7f7685c",
+			"url": "http://localhost:3000/api/register",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"API can register a user": true
+			},
+			"testPassFailCounts": {
+				"API can register a user": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"2"
+			],
+			"allTests": [
+				{
+					"API can register a user": true
+				}
+			],
+			"time": "2",
+			"totalRequestTime": "2",
+			"iterationResults": {}
+		},
+		{
+			"name": "Read user object",
+			"id": "84d9de47-872c-4891-93bf-1242ffdd9476",
+			"url": "http://localhost:3000/api/user",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"API can return user object": true
+			},
+			"testPassFailCounts": {
+				"API can return user object": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"2"
+			],
+			"allTests": [
+				{
+					"API can return user object": true
+				}
+			],
+			"time": "2",
+			"totalRequestTime": "2",
+			"iterationResults": {}
+		},
+		{
+			"name": "Login User 0",
+			"id": "e78bc8a4-9f28-4a0c-bc36-4e39c736ac6f",
+			"url": "http://localhost:3000/api/register",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"API can login user": true
+			},
+			"testPassFailCounts": {
+				"API can login user": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"3"
+			],
+			"allTests": [
+				{
+					"API can login user": true
+				}
+			],
+			"time": "3",
+			"totalRequestTime": "3",
+			"iterationResults": {}
+		},
+		{
+			"name": "Add item to cart",
+			"id": "c7b6d384-f252-457b-bc25-ff350468021a",
+			"url": "http://localhost:3000/api/cart/1",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"API can add item to cart": true
+			},
+			"testPassFailCounts": {
+				"API can add item to cart": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"2"
+			],
+			"allTests": [
+				{
+					"API can add item to cart": true
+				}
+			],
+			"time": "2",
+			"totalRequestTime": "2",
+			"iterationResults": {}
+		},
+		{
+			"name": "Add item to cart",
+			"id": "32ae79ba-e0e7-4917-ba03-56483247a301",
+			"url": "http://localhost:3000/api/cart/2",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"API can add item to cart": true
+			},
+			"testPassFailCounts": {
+				"API can add item to cart": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"3"
+			],
+			"allTests": [
+				{
+					"API can add item to cart": true
+				}
+			],
+			"time": "3",
+			"totalRequestTime": "3",
+			"iterationResults": {}
+		},
+		{
+			"name": "Delete item from cart",
+			"id": "c325ed14-ccfd-410b-b88e-4f25475e3912",
+			"url": "http://localhost:3000/api/cart/2",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"API can remove item from cart": true
+			},
+			"testPassFailCounts": {
+				"API can remove item from cart": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"4"
+			],
+			"allTests": [
+				{
+					"API can remove item from cart": true
+				}
+			],
+			"time": "4",
+			"totalRequestTime": "4",
+			"iterationResults": {}
+		},
+		{
+			"name": "Checkout",
+			"id": "b9a4424b-6b4c-4533-afed-4e8bf066ec5a",
+			"url": "http://localhost:3000/api/cart/checkout",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"API can checkout": true
+			},
+			"testPassFailCounts": {
+				"API can checkout": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"3"
+			],
+			"allTests": [
+				{
+					"API can checkout": true
+				}
+			],
+			"time": "3",
+			"totalRequestTime": "3",
+			"iterationResults": {}
+		},
+		{
+			"name": "Filter Swag",
+			"id": "252e8e91-977c-4ae9-b892-4aaf85455194",
+			"url": "http://localhost:3000/api/search?category=hats",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"API can return filtered list of swag": true
+			},
+			"testPassFailCounts": {
+				"API can return filtered list of swag": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"3"
+			],
+			"allTests": [
+				{
+					"API can return filtered list of swag": true
+				}
+			],
+			"time": "3",
+			"totalRequestTime": "3",
+			"iterationResults": {}
+		},
+		{
+			"name": "Filter Swag",
+			"id": "5ee02225-fb50-45fc-b633-97d32f9423e4",
+			"url": "http://localhost:3000/api/search?category=shirts",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"API can return filtered list of swag": true
+			},
+			"testPassFailCounts": {
+				"API can return filtered list of swag": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"2"
+			],
+			"allTests": [
+				{
+					"API can return filtered list of swag": true
+				}
+			],
+			"time": "2",
+			"totalRequestTime": "2",
+			"iterationResults": {}
+		},
+		{
+			"name": "Filter Swag",
+			"id": "ced03358-9804-4b3c-8dd9-cb1555743984",
+			"url": "http://localhost:3000/api/search?category=pants",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"API can return filtered list of swag": true
+			},
+			"testPassFailCounts": {
+				"API can return filtered list of swag": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"2"
+			],
+			"allTests": [
+				{
+					"API can return filtered list of swag": true
+				}
+			],
+			"time": "2",
+			"totalRequestTime": "2",
+			"iterationResults": {}
+		},
+		{
+			"name": "Signout User 0",
+			"id": "f327a2bb-f9b2-4c81-9f04-3653b2a3641c",
+			"url": "http://localhost:3000/api/signout",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"API can successfully destroy session": true
+			},
+			"testPassFailCounts": {
+				"API can successfully destroy session": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"2"
+			],
+			"allTests": [
+				{
+					"API can successfully destroy session": true
+				}
+			],
+			"time": "2",
+			"totalRequestTime": "2",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 12,
+	"totalFail": 0,
+	"totalTime": 37,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "Get Swag",
+			"id": "b5eb30f3-9710-4937-b28a-b92217b426f5",
+			"url": "http://localhost:3000/api/swag",
+			"time": "2019-09-17T22:24:42.959Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"API can return swag": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Register User 0",
+			"id": "f4a6081d-7105-40f4-bf68-1d5cd7f7685c",
+			"url": "http://localhost:3000/api/register",
+			"time": "2019-09-17T22:24:42.959Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"API can register a user": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Read user object",
+			"id": "84d9de47-872c-4891-93bf-1242ffdd9476",
+			"url": "http://localhost:3000/api/user",
+			"time": "2019-09-17T22:24:42.959Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"API can return user object": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Login User 0",
+			"id": "e78bc8a4-9f28-4a0c-bc36-4e39c736ac6f",
+			"url": "http://localhost:3000/api/register",
+			"time": "2019-09-17T22:24:42.959Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"API can login user": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Add item to cart",
+			"id": "c7b6d384-f252-457b-bc25-ff350468021a",
+			"url": "http://localhost:3000/api/cart/1",
+			"time": "2019-09-17T22:24:42.959Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"API can add item to cart": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Add item to cart",
+			"id": "32ae79ba-e0e7-4917-ba03-56483247a301",
+			"url": "http://localhost:3000/api/cart/2",
+			"time": "2019-09-17T22:24:42.959Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"API can add item to cart": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Delete item from cart",
+			"id": "c325ed14-ccfd-410b-b88e-4f25475e3912",
+			"url": "http://localhost:3000/api/cart/2",
+			"time": "2019-09-17T22:24:42.959Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"API can remove item from cart": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Checkout",
+			"id": "b9a4424b-6b4c-4533-afed-4e8bf066ec5a",
+			"url": "http://localhost:3000/api/cart/checkout",
+			"time": "2019-09-17T22:24:42.959Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"API can checkout": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Filter Swag",
+			"id": "252e8e91-977c-4ae9-b892-4aaf85455194",
+			"url": "http://localhost:3000/api/search?category=hats",
+			"time": "2019-09-17T22:24:42.959Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"API can return filtered list of swag": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Filter Swag",
+			"id": "5ee02225-fb50-45fc-b633-97d32f9423e4",
+			"url": "http://localhost:3000/api/search?category=shirts",
+			"time": "2019-09-17T22:24:42.959Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"API can return filtered list of swag": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Filter Swag",
+			"id": "ced03358-9804-4b3c-8dd9-cb1555743984",
+			"url": "http://localhost:3000/api/search?category=pants",
+			"time": "2019-09-17T22:24:42.959Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"API can return filtered list of swag": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Signout User 0",
+			"id": "f327a2bb-f9b2-4c81-9f04-3653b2a3641c",
+			"url": "http://localhost:3000/api/signout",
+			"time": "2019-09-17T22:24:42.959Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"API can successfully destroy session": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		}
+	],
+	"synced": false
+}
